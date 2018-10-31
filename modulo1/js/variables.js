@@ -37,3 +37,24 @@ var vehiculo = {
 };
 console.log("vehiculo",vehiculo);
 console.log("tipo de vehiculo",vehiculo.tipo);
+
+var nombre = "carlos";
+console.log("nombre",nombre);
+nombre=true;
+console.log("nombre",nombre);
+nombre=20;
+console.log("nombre",nombre);
+
+
+//** diferencias entre var y let */
+
+var apellido="lola";
+console.log("apellido",apellido);
+nombre=14;
+console.log("apellido numerico",apellido);
+if (true){
+    apellido="pinches";
+    console.log("apellido dentro del if",apellido);
+}
+
+
