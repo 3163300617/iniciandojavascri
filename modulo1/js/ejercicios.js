@@ -95,11 +95,42 @@ else{
 }
 
 */
+//**crear un usuario y una contraseña */
 
-var plataforma =parseInt(prompt("ingrese su usuario"));
-while (plataforma!="dayana"){
-    alert("ingrese un numero")
-    plataforma =parseInt(prompt("ingrese su usuario"));
+/*
+var user="dayana";
+var password="123456";
+var count=0;
+var usernew=parseInt(prompt("enter your user"));
+var passwordnew=parseInt(prompt("enter your password"));
+while(usernew!=user && passwordnew !=password ){
+    alert("the user or password does not match");
+    var usernew=parseInt(prompt("enter your user"));
+    var passwordnew=parseInt(prompt("enter your password"));
+    count++;
+    if(count>=5){
+        alert("user blocked");
+        break;
+    }
 }
-if(){
+*/
+
+var table=parseInt(prompt("ingrese la tabla de multiplicar que quiere ver"));
+while(isNaN(table) || table<=0){
+    var table=parseInt(prompt("ingrese la tabla de multiplicar que quiere ver"));
 }
+var tablenew=parseInt(prompt("hasta cual tabla quiere ver"));
+while(isNaN(tablenew)|| table<=0){
+    var tablenew=parseInt(prompt("hasta cual tabla quiere ver"));
+}
+document.write("<h1>la tabla del "+table+" </h1>");
+
+var count=0;
+function multypli
+for (count = 1; count <= 10; count++) {
+	tabel=table*count;
+document.write(table+"x"+count+"="+tabel+ "<br>");
+}
+document.write("<br>");
+document.write("<h1>estas son todas las tablas hata el "+tablenew+" </h1>");
+
